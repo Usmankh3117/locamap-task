@@ -1,0 +1,27 @@
+{
+  "name": "locamap-backend-challenge",
+  "version": "1.0.0",
+  "description": "Build an API that takes a latitude and longitude coordinate pair and return with the name of the country",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI"
+  ],
+  "author": "letsdoit",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "country-reverse-geocoding": "^0.2.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "express-validation": "^3.0.8",
+    "http-status": "^1.5.0",
+    "joi": "^17.4.0",
+    "nodemon": "^2.0.7"
+  }
+}
